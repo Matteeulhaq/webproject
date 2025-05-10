@@ -1,0 +1,76 @@
+/* src/styles/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap");
+@import "tailwindcss";
+
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  line-height: 1.6; /* Improved text readability */
+}
+
+.navbar {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 1.5rem 2rem; /* More spacious navbar */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.nav-heading {
+  font-family: 'Satoshi', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+.product-heading {
+  font-family: 'Bevellier', sans-serif;
+}
+
+.product-card {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 1.5rem; /* Added spacing between cards */
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* Global container for page content */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1rem; /* Consistent page padding */
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem; /* Space below headings */
+}
+
+h1 {
+  font-size: 2.25rem; /* 36px */
+}
+
+h2 {
+  font-size: 1.875rem; /* 30px */
+}
+
+h3 {
+  font-size: 1.5rem; /* 24px */
+}
+
+p {
+  margin-bottom: 1rem; /* Space below paragraphs */
+}
